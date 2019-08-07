@@ -6,9 +6,8 @@ import {
   PlaceholderName
 } from "@microsoft/sp-application-base";
 import { Dialog } from "@microsoft/sp-dialog";
-
-import * as strings from "TestAppCustomiserApplicationCustomizerStrings";
 import styles from "./TestAppCustomiserApplicationCustomizer.module.scss";
+import * as strings from "TestAppCustomiserApplicationCustomizerStrings";
 
 const LOG_SOURCE: string = "TestAppCustomiserApplicationCustomizer";
 
