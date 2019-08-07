@@ -45,13 +45,13 @@ export default class TestAppCustomiserApplicationCustomizer extends BaseApplicat
 
   private _onDispose(): void {
     console.log(
-      "[HelloWorldApplicationCustomizer._onDispose] Disposed custom top and bottom placeholders."
+      "[TestAppCustomiser._onDispose] Disposed custom top and bottom placeholders."
     );
   }
 
   private _renderPlaceHolders(): void {
     console.log(
-      "Available application customizer placeholders: ",
+      "Available application customiser placeholders: ",
       this.context.placeholderProvider.placeholderNames
         .map(name => PlaceholderName[name])
         .join(", ")
