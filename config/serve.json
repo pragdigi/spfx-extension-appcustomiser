@@ -9,7 +9,8 @@
         "e18e5be9-8078-489d-9364-38b0b2151436": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "header": "Something something header",
+            "footer": "this is footer"
           }
         }
       }
@@ -20,7 +21,8 @@
         "e18e5be9-8078-489d-9364-38b0b2151436": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
+            "header": "Something something header",
+            "footer": "this is footer"
           }
         }
       }
