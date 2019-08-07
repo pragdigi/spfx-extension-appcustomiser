@@ -8,6 +8,7 @@ import {
 import { Dialog } from "@microsoft/sp-dialog";
 import styles from "./TestAppCustomiserApplicationCustomizer.module.scss";
 import * as strings from "TestAppCustomiserApplicationCustomizerStrings";
+import { escape } from '@microsoft/sp-lodash-subset';
 
 const LOG_SOURCE: string = "TestAppCustomiserApplicationCustomizer";
 
@@ -44,7 +45,7 @@ export default class TestAppCustomiserApplicationCustomizer extends BaseApplicat
 
   private _onDispose(): void {
     console.log(
-      "[TestAppCustomiser._onDispose] Disposed custom top and bottom placeholders."
+      "[TestAppCustomiserApplicationCustomizer._onDispose] Disposed custom top and bottom placeholders."
     );
   }
 
